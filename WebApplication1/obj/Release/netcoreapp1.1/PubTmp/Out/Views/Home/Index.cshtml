@@ -1,0 +1,354 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="#">Пользователь</a></li>
+                <li role="presentation"><a href="#">Новости</a></li>
+                <li role="presentation"><a href="#">Ресурсы</a></li>
+                <li role="presentation"><a href="#">Поиск</a></li>
+                <li role="presentation"><a href="#">Настройка</a></li>
+                <li role="presentation"><a href="#">Владелец</a></li>
+                <li role="presentation"><a href="#">Администратор</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading well well-sm">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form class="navbar-form navbar-left">
+                                <a href="#">Профиль</a>
+                            </form>
+                            <form class="navbar-form navbar-right">
+                                <a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="~/assets/avatar.jpg" class="ra-avatar img-responsive" />
+                        </div>
+                        <div class="col-lg-6">
+                            <span class="ra-first-name">Назар</span>
+                            <span class="ra-last-name">Сингаївський</span>
+                            <span class="ra-position">.NET Core Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    60%
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading well well-sm">
+                    <div class="row">
+                        <div class="col-lg-14">
+                            <form class="navbar-form navbar-left">
+                                <a href="#">Владельцы источников данных</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            Фильтр:
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="btn-group btn-group-xs btn-group-justified button-group filter-button-group">
+                                <button class="button is-checked btn btn-info" data-filter="*">все</button>
+                                <button class="button btn btn-info" data-filter=".iot">IoT</button>
+                                <button class="button btn btn-info" data-filter=".sql">SQL</button>
+                                <button class="button btn btn-info" data-filter=".web">Web</button>
+                                <button class="button btn btn-info" data-filter=".mob">Mob</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                <div class="row">
+                                            <div class="col-lg-3">
+                                                Сортировка:
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="btn-group btn-group-xs btn-group-justified filters-button-group" role="group" aria-label="btn-group-owners">
+                                                    <button type="button" class="btn btn-info" data-filter=".iot">Фамилия</button>
+                                                    <button type="button" class="btn btn-info" data-filter=".web">Логин</button>
+                                                    <button type="button" class="btn btn-info" data-filter=".sql">Рег.ID</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                    -->
+                </div>
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="grid">
+                                <div class="element-item iot sql mob web" data-category="owner">
+                                    <p class="Surname" hidden>Демидов</p>
+                                    <p class="Login" hidden>dem817</p>
+                                    <p class="RegID" hidden>09868759-8653673</p>
+                                    <img src="~/assets/avatars/001.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot web" data-category="owner">
+                                    <p class="Surname" hidden>Алимов</p>
+                                    <p class="Login" hidden>coobe3</p>
+                                    <p class="RegID" hidden>65965476-86590875</p>
+                                    <img src="~/assets/avatars/002.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot" data-category="owner">
+                                    <p class="Surname" hidden>Мисечко</p>
+                                    <p class="Login" hidden>maatr</p>
+                                    <p class="RegID" hidden>7868756674-97646743659</p>
+                                    <img src="~/assets/avatars/003.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot" data-category="owner">
+                                    <p class="Surname" hidden>Жуковский</p>
+                                    <p class="Login" hidden>Hguart</p>
+                                    <p class="RegID" hidden>8764349650-96763568</p>
+                                    <img src="~/assets/avatars/004.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot sql" data-category="owner">
+                                    <p class="Surname" hidden>Игнатеня</p>
+                                    <p class="Login" hidden>Falosetg</p>
+                                    <p class="RegID" hidden>765434967-85646743849</p>
+                                    <img src="~/assets/avatars/005.png" class="ra-avatar img-responsive" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading well well-sm">
+                    <div class="row">
+                        <div class="col-lg-14">
+                            <form class="navbar-form navbar-left">
+                                <a href="#">Пользователи</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            Фильтр:
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="btn-group btn-group-xs btn-group-justified button-group filter-button-group">
+                                <button class="button is-checked btn btn-info" data-filter="*">все</button>
+                                <button class="button btn btn-info" data-filter=".iot">IoT</button>
+                                <button class="button btn btn-info" data-filter=".sql">SQL</button>
+                                <button class="button btn btn-info" data-filter=".web">Web</button>
+                                <button class="button btn btn-info" data-filter=".mob">Mob</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                <div class="row">
+                                            <div class="col-lg-3">
+                                                Сортировка:
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <div class="btn-group btn-group-xs btn-group-justified filters-button-group" role="group" aria-label="btn-group-owners">
+                                                    <button type="button" class="btn btn-info" data-filter=".iot">Фамилия</button>
+                                                    <button type="button" class="btn btn-info" data-filter=".web">Логин</button>
+                                                    <button type="button" class="btn btn-info" data-filter=".sql">Рег.ID</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                    -->
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="grid">
+                                <div class="element-item iot sql mob web" data-category="owner">
+                                    <p class="Surname" hidden>Демидов</p>
+                                    <p class="Login" hidden>dem817</p>
+                                    <p class="RegID" hidden>09868759-8653673</p>
+                                    <img src="~/assets/avatars/021.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot web" data-category="owner">
+                                    <p class="Surname" hidden>Алимов</p>
+                                    <p class="Login" hidden>coobe3</p>
+                                    <p class="RegID" hidden>65965476-86590875</p>
+                                    <img src="~/assets/avatars/022.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot" data-category="owner">
+                                    <p class="Surname" hidden>Мисечко</p>
+                                    <p class="Login" hidden>maatr</p>
+                                    <p class="RegID" hidden>7868756674-97646743659</p>
+                                    <img src="~/assets/avatars/023.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot" data-category="owner">
+                                    <p class="Surname" hidden>Жуковский</p>
+                                    <p class="Login" hidden>Hguart</p>
+                                    <p class="RegID" hidden>8764349650-96763568</p>
+                                    <img src="~/assets/avatars/024.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot sql" data-category="owner">
+                                    <p class="Surname" hidden>Игнатеня</p>
+                                    <p class="Login" hidden>Falosetg</p>
+                                    <p class="RegID" hidden>765434967-85646743849</p>
+                                    <img src="~/assets/avatars/025.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item sql mob" data-category="owner">
+                                    <p class="Surname" hidden>Кот</p>
+                                    <p class="Login" hidden>Njeeert</p>
+                                    <p class="RegID" hidden>7647658765-674365976</p>
+                                    <img src="~/assets/avatars/026.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item sql" data-category="owner">
+                                    <p class="Surname" hidden>Кононов</p>
+                                    <p class="Login" hidden>Maestro</p>
+                                    <p class="RegID" hidden>765769-423475875</p>
+                                    <img src="~/assets/avatars/027.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item sql" data-category="owner">
+                                    <p class="Surname" hidden>Винокуров</p>
+                                    <p class="Login" hidden>qler</p>
+                                    <p class="RegID" hidden>089679875675-352473865469</p>
+                                    <img src="~/assets/avatars/028.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot web" data-category="owner">
+                                    <p class="Surname" hidden>Савчук</p>
+                                    <p class="Login" hidden>Yulod</p>
+                                    <p class="RegID" hidden>865465468-5421543</p>
+                                    <img src="~/assets/avatars/029.png" class="ra-avatar img-responsive" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading well well-sm">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form class="navbar-form navbar-left">
+                                <a href="#">Контактные данные</a>
+                            </form>
+                            <form class="navbar-form navbar-right">
+                                <a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="col-lg-12">
+                        <table class="table">
+                            <tr>
+                                <td>Логин</td>
+                                <td>Na_Zavr</td>
+                            </tr>
+                            <tr>
+                                <td>Регистрационный ID</td>
+                                <td>f29be1af-e59cac9376df</td>
+                            </tr>
+                            <tr>
+                                <td>Дата регистрации</td>
+                                <td>27-02-2017</td>
+                            </tr>
+                            <tr>
+                                <td>Телефон</td>
+                                <td>+380996000180</td>
+                            </tr>
+                            <tr>
+                                <td>Skype</td>
+                                <td>na.zar58</td>
+                            </tr>
+                            <tr>
+                                <td>Электронная почта</td>
+                                <td>n.syngaivskyi@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Персональный сайт</td>
+                                <td>https://www.vizatech.com</td>
+                            </tr>
+                            <tr>
+                                <td>Страница в Facebook</td>
+                                <td>https://www.facebook.com/nazar.syngaivskyi</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading well well-sm">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form class="navbar-form navbar-left">
+                                <a href="#">Источники данных</a>
+                            </form>
+                            <form class="navbar-form navbar-right">
+                                <a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="grid">
+                                <div class="element-item iot sql mob web" data-category="owner">
+                                    <img src="~/assets/devices/031.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot web" data-category="owner">
+                                    <img src="~/assets/devices/032.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot" data-category="owner">
+                                    <img src="~/assets/devices/033.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot" data-category="owner">
+                                    <img src="~/assets/devices/034.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item iot sql" data-category="owner">
+                                    <img src="~/assets/devices/035.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item sql mob" data-category="owner">
+                                    <img src="~/assets/devices/036.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item sql" data-category="owner">
+                                    <img src="~/assets/devices/037.png" class="ra-avatar img-responsive" />
+                                </div>
+                                <div class="element-item sql" data-category="owner">
+                                    <img src="~/assets/devices/038.png" class="ra-avatar img-responsive" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading well well-sm">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form class="navbar-form navbar-left">
+                                <a href="#">Лента подписанных ресурсов</a>
+                            </form>
+                            <form class="navbar-form navbar-right">
+                                <a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="col-lg-14">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

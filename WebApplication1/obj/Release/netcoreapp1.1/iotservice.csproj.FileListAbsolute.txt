@@ -1,0 +1,63 @@
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.deps.json
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.json
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.dev.json
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.dll
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.AssemblyInfo.cs
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.dll
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\dmitr\Source\Repos\vizatech\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.deps.json
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.json
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.dev.json
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\bin\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.AssemblyInfo.cs
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\pc\Desktop\iotcommunity\WebApplication1\obj\Release\netcoreapp1.1\iotservice.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.deps.json
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.json
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.dev.json
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.AssemblyInfo.cs
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.deps.json
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.json
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.dev.json
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\bin\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.AssemblyInfo.cs
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\Front End\iotcommunityupdated\WebApplication1\obj\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.deps.json
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.json
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.dev.json
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.dll
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.csprojResolveAssemblyReference.cache
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.AssemblyInfo.cs
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.dll
+C:\Users\daemo\Documents\Site design\Site design\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.deps.json
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.json
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.dev.json
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.AssemblyInfo.cs
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.dll
+C:\Users\pc\Desktop\Project\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\dmitr\Desktop\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.deps.json
+C:\Users\dmitr\Desktop\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.json
+C:\Users\dmitr\Desktop\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.runtimeconfig.dev.json
+C:\Users\dmitr\Desktop\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.dll
+C:\Users\dmitr\Desktop\1.0\WebApplication1\bin\Release\netcoreapp1.1\iotservice.pdb
+C:\Users\dmitr\Desktop\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.csprojResolveAssemblyReference.cache
+C:\Users\dmitr\Desktop\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.AssemblyInfo.cs
+C:\Users\dmitr\Desktop\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.dll
+C:\Users\dmitr\Desktop\1.0\WebApplication1\obj\Release\netcoreapp1.1\iotservice.pdb
