@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="/Home/Index">Пользователь</a></li>
+            <li role="presentation"><a href="/Home/Feed">Новости</a></li>
+            <li role="presentation"><a href="/Home/Messages">Сообщения</a></li>
+            <li role="presentation"><a href="/Home/DataSources">Источники Данных</a></li>
+            <li role="presentation"><a href="#">Ресурсы</a></li>
+            <li role="presentation"><a href="#">Поиск</a></li>
+            <li role="presentation"><a href="#">Настройка</a></li>
+            <li role="presentation"><a href="#">Владелец</a></li>
+            <li role="presentation"><a href="#">Администратор</a></li>
+            <li role="presentation"><a href="/Home/DeviceCreate">Testingit</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        @{
+            Html.RenderAction("MainInformation");
+        }
+        @{
+            Html.RenderAction("RatingBar");
+        }
+        @{
+            Html.RenderAction("SubscriptionOwnersList");
+        }
+        @{
+            Html.RenderAction("FriendsList");
+        }
+    </div>
+    <div class="col-md-6">
+        @{
+            Html.RenderAction("UserPlusInfo");
+        }
+        
+        @{
+            Html.RenderAction("DeviceList");
+        }
+    </div>
+</div>

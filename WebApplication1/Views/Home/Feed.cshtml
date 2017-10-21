@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "NewsFeed Page";
+}
+<div class="row">
+    @Html.Partial("Feed/NavList")
+
+    <div class="col-md-10">
+        <!-- Nav tabs -->
+        @Html.Partial("Feed/NavTabs")
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active">
+                @Html.Partial("Feed/TagFilter")
+                <br />
+                <div class="col-md-12">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                @Html.Partial("Feed/Message1")
+                            </div>
+                            
+                        </div>
+                        <div class="panel panel-default">
+                            @Html.Partial("Feed/Comments")
+                        </div>
+                        <div class="panel panel-default">
+                            @Html.Partial("Feed/YourComment")
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            @Html.Partial("Feed/Message2")
+                        </div>
+                        <div class="panel panel-default">
+                           @Html.Partial("Feed/Comments")
+                        </div>
+                        <div class="panel panel-default">
+                            @Html.Partial("Feed/YourComment")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

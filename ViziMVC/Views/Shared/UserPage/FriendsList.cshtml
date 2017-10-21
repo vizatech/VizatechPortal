@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ViziMVC.Models.UsersPagePartitions.Friend>
+@{
+    Layout = null;
+}
+
+<div class="panel panel-default filter-content">
+    <div class="panel-heading well well-sm">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="navbar-form navbar-left">
+                    <a href="#">Пользователи</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-body">
+        <div class="row">
+            @foreach (ViziMVC.Models.UsersPagePartitions.Friend friend in Model)
+            {
+                <div class="element-item col-xs-2 col-md-3 @friend.PersonalFilters" data-category="owner">
+                    <p class="Surname" hidden>@friend.ShortPopUp</p>
+                    <p class="OwnerID" hidden>@friend.Id</p>
+                    <img src="/@friend.PictureUrl" class="ra-avatar img-responsive" />
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="panel-body">
+    <div class="row">
+        <div>
+            <img src="~/assets/avatars/023.png" class="ra-avatar img-responsive col-md-2" />
+            <p class="col-md-6"> <span class="Name">Антон</span> <span class="Surname">Мисечко</span></p>
+            <p class="Login" hidden>maatr</p>
+            <p class="RegID" hidden>7868756674-97646743659</p>
+            <p class="Message col-md-7 col-md-offset-1">With HTML you can create your own Web site. This tutorial teaches you everything about HTML. HTML is easy to learn - You will enjoy it.</p>
+        </div>
+        <div class="col-md-offset-10">
+            <p datetime="2017-04-13T19:45"> 14:14 19.45</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div>
+                <video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" tabindex="0"></video>
+                <script>
+                                            var myOptions = {
+                                                "nativeControlsForTouch": false,
+                                                controls: true,
+                                                autoplay: false,
+                                                width: "640",
+                                                height: "400",
+                                            }
+                                            myPlayer = amp("azuremediaplayer", myOptions);
+                                            myPlayer.src([
+                                                {
+                                                    "src": "http://ini998stream.streaming.mediaservices.windows.net/4fb31f04-6530-4fb3-92b7-92c186aa65ba/136e7c9e-3d93-4bcd-befb-f495093298d5.ism/manifest(format=mpd-time-csf)",
+                                                    "type": "application/vnd.ms-sstr+xml"
+                                                }
+                                            ]);
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="messageTags">
+        <span>#sample #tags</span>
+    </div>
+</div>

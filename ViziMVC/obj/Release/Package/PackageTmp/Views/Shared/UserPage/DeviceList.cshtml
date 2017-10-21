@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ViziMVC.Models.UsersPagePartitions.DevItem>
+@{
+    Layout = null;
+}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <p>Страницы источников данных</p>
+    </div>
+    <div class="panel-body">
+        <div id="inline-list" class="row-fluid ">
+            @foreach (ViziMVC.Models.UsersPagePartitions.DevItem device in Model)
+            {
+                <div><a href="#"><img width="64" height="64" src="/@device.DeviceIconURL" class="ra-avatar img-responsive" /></a> </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-default filter-content">
+    <div class="panel-heading well well-sm">
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="navbar-form navbar-left">
+                    <a href="#">Источники данных</a>
+                </form>
+                <form class="navbar-form navbar-right">
+                    <a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md  -12">
+                <div class="grid">
+                    <div class="element-item iot sql mob web" data-category="owner">
+                        <div style="width:100%;">
+                            <canvas id="canvas"></canvas>
+                        </div>
+                        <script src="~/Scripts/ExampleDeviceChart.js"></script>
+                    </div>
+                    @foreach (ViziMVC.Models.UsersPagePartitions.DevItem device in Model)
+                    {
+                        <div class="element-item @device.DeviceFilters" data-category="">
+                            <img src="/@device.DeviceIconURL" class="ra-avatar img-responsive" />
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ViziMVC.Models.UsersPagePartitions.Owner>
+@{
+    Layout = null;
+}
+<div class="panel panel-default filter-content">
+    <div class="panel-heading well well-sm">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="navbar-form navbar-left">
+                    <a href="#">Владельцы источников данных</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            @foreach (ViziMVC.Models.UsersPagePartitions.Owner owneritem in Model)
+            {
+                <div class="element-item col-xs-2 col-md-3 @owneritem.PersonalFilters" data-category="owner">
+                    <p class="Surname" hidden>@owneritem.ShortPopUp</p>
+                    <p class="OwnerID" hidden>@owneritem.OwnerId</p>
+                    <img src="/@owneritem.OwnerPictureUrl" class="ra-avatar img-responsive" />
+                </div>
+            }
+        </div>
+    </div>
+</div>

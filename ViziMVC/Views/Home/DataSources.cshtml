@@ -1,0 +1,456 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "DataSources Page";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="/Home/Index">Пользователь</a></li>
+            <li role="presentation"><a href="/Home/Feed">Новости</a></li>
+            <li role="presentation"><a href="/Home/Messages">Сообщения</a></li>
+            <li role="presentation"><a href="/Home/DataSources">Источники Данных</a></li>
+            <li role="presentation"><a href="#">Ресурсы</a></li>
+            <li role="presentation"><a href="#">Поиск</a></li>
+            <li role="presentation"><a href="#">Настройка</a></li>
+            <li role="presentation"><a href="#">Владелец</a></li>
+            <li role="presentation"><a href="#">Администратор</a></li>
+            <li role="presentation"><a href="/Home/DeviceCreate">Testingit</a></li>
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <!--Links to data sources-->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <p>Страницы источников данных</p>
+            </div>
+            <div class="panel-body">
+                <div>
+                    <div  id="inline-list" class="row-fluid">
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive"/></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                        <div><a href="#"><img src="~/assets/devices/001.png" class="ra-avatar img-responsive" /></a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#All" aria-controls="All" role="tab" data-toggle="tab">All</a></li>
+            <li role="presentation"><a href="#Data" aria-controls="Data" role="tab" data-toggle="tab">Data</a></li>
+            <li role="presentation"><a href="#Alarms" aria-controls="Alarms" role="tab" data-toggle="tab">Alarms</a></li>
+            <li role="presentation"><a href="#Controls" aria-controls="Controls" role="tab" data-toggle="tab">Controls</a></li>
+            <li role="presentation"><a href="#View" aria-controls="View" role="tab" data-toggle="tab">View</a></li>
+            <li role="presentation"><a href="#Subscription" aria-controls="Subscription" role="tab" data-toggle="tab">Subscription</a></li>
+            <li role="presentation"><a href="#Info" aria-controls="Info" role="tab" data-toggle="tab">Info</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active">
+                <div class="container-fluid">
+                    <br />
+                    <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#DeviceGeneralizedInfo">
+                            <div class="panel-heading panel-footer">
+                                <span>Device's generalized information</span>
+                                <span class="pull-right panel-collapse-clickable" data-toggle="collapse" href="#DeviceGeneralizedInfo">
+                                    <i class="glyphicon glyphicon-chevron-down"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <div id="DeviceGeneralizedInfo" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Devece ID: 2274500089</li>
+                                    <li>Source class: IoT / SQL / Web /Mob</li>
+                                    <li>Device name: Termometer</li>
+                                    <li>Short description:</li>
+                                    <li>Address:</li>
+                                    <li>Device type: analog / digital / multyfactor</li>
+                                    <li>Accurance: 0.1 %</li>
+                                    <li>Measurement frequency: 10   1/s</li>
+                                    <li>Unit of measurement: C</li>
+                                    <li>Rating: 4.53 of 5</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#UsersSubscription">
+                            <div class="panel-heading panel-footer">
+                                <span>User's subscription</span>
+                                <span class="pull-right panel-collapse-clickable" data-toggle="collapse" href="#UsersSubscription">
+                                    <i class="glyphicon glyphicon-chevron-down"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <div id="UsersSubscription" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Status: owner / user</li>
+                                    <li>Credentials: read / write / admin</li>
+                                    <li>In use since: 17.03.2018</li>
+                                    <li>Expiery date: 26.06.2018</li>
+                                    <li>Value of subscribtion: 1$/y</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#Data_source_1">
+                            <div class="panel-footer panel-heading">
+                                    <span>Data source 1</span>
+                                    <span class="pull-right panel-collapse-clickable" data-toggle="collapse" href="#Data_source_1">
+                                        <i class="glyphicon glyphicon-chevron-down"></i>
+                                    </span>
+                            </div>
+                        </a>
+                        <div id="Data_source_1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-12" data-category="owner">
+                                        <a href="#">
+                                            <img src="~/assets/avatars/029.png" class="ra-avatar img-responsive col-md-2" />
+                                        </a>
+                                        <a href="#">
+                                            <p class="col-md-9"><span class="Surname">Юрий</span> <span class="Surname">Савчук</span></p>
+                                        </a>
+                                        <p class="Login" hidden>Yulod</p>
+                                        <p class="RegID" hidden>865465468-5421543</p>
+                                        <span class="glyphicon glyphicon-eye-open pull-right"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-9">
+                                        <img src="~/assets/devices/053.png" class="img-responsive img-rounded center-block" />
+                                    </div>
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-bullhorn img-responsive"></span>
+                                        <br />
+                                        <img src="~/assets/glyphicons-social/png/glyphicons-social-31-facebook.png" class="img-responsive" />
+                                        <br />
+                                        <img src="~/assets/glyphicons-social/png/glyphicons-social-32-twitter.png" class="img-responsive" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-9">
+                                        <div class="btn-group-justified" data-toggle="buttons">
+                                            <label class="btn btn-primary active">
+                                                <input type="radio" name="options" id="option1" autocomplete="off" checked> Hour
+                                            </label>
+                                            <label class="btn btn-primary">
+                                                <input type="radio" name="options" id="option2" autocomplete="off"> Day
+                                            </label>
+                                            <label class="btn btn-primary">
+                                                <input type="radio" name="options" id="option3" autocomplete="off"> Month
+                                            </label>
+                                            <label class="btn btn-primary">
+                                                <input type="radio" name="options" id="option4" autocomplete="off"> Year
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#DeviceControls">
+                            <div class="panel-heading panel-footer">
+                                <span>Device's controls</span>
+                                <span class="pull-right panel-collapse-clickable" data-toggle="collapse" href="#DeviceControls">
+                                    <i class="glyphicon glyphicon-chevron-down"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <div id="DeviceControls" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="~/assets/devices/016.png" class="ra-avatar img-responsive" />
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>
+                                                Parameter Name 1
+                                            </p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-5">
+                                            <div class="checkbox">
+                                                <label><input type="checkbox" value="" />Alarm conditioned</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <fieldset disabled>
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option>Alarm name</option>
+                                                        <option>Alarm name 1</option>
+                                                        <option>Alarm name 2</option>
+                                                    </select>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-9">
+                                            <div class="form-group">
+                                                <select class="form-control" style="min-width:100%">
+                                                    <option>Function Name 1</option>
+                                                    <option>Function Name 2</option>
+                                                    <option>Function Name 3</option>
+                                                    <option>Function Name 4</option>
+                                                    <option>Function Name 5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-5">
+
+                                            <div class="form-group">
+                                                <label class="control-label" for="funcParam">Function Parameter: </label>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <!--><input class="input-sm helllo" type="number" id="funcParam" value = "hhh" placeholder="1" style="min-width:100%" /><!-->
+                                            <input class="input-sm hello"  type="number" id="hello" value="123"  style="min-width:100%" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="~/assets/devices/018.png" class="ra-avatar img-responsive" />
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>
+                                                Parameter Name 2
+                                            </p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-5">
+                                            <div class="checkbox">
+                                                <label><input type="checkbox" value="" checked/>Alarm conditioned</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <fieldset>
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option>Alarm name</option>
+                                                        <option>Alarm name 1</option>
+                                                        <option>Alarm name 2</option>
+                                                    </select>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-9">
+                                            <div class="form-group">
+                                                <select class="form-control" style="min-width:100%">
+                                                    <option>Function Name 1</option>
+                                                    <option>Function Name 2</option>
+                                                    <option>Function Name 3</option>
+                                                    <option>Function Name 4</option>
+                                                    <option>Function Name 5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-5">
+
+                                            <div class="form-group">
+                                                <label class="control-label" for="funcParam">Function Parameter: </label>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select class="form-control" style="min-width:100%">
+                                                <option>ON</option>
+                                                <option>OFF</option>
+                                                <option>SMTH ELSE</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-5">
+                                        <button class="btn btn-info" type="button">Add control</button>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-info pull-right" type="button">Set controls</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#AlarmNotification">
+                            <div class="panel-heading panel-footer">
+                                <span>Alarm notofication</span>
+                                <span class="pull-right panel-collapse-clickable" data-toggle="collapse" href="#AlarmNotification">
+                                    <i class="glyphicon glyphicon-chevron-down"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <div id="AlarmNotification" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="~/assets/devices/010.png" class="ra-avatar img-responsive" />
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>
+                                                Parameter Name 1
+                                            </p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-9">
+                                            <form class="form-horizontal">
+                                                <div class="form-group">
+                                                    <div class="col-md-1">
+                                                        <input type="checkbox" />
+                                                    </div>
+                                                    <label class="control-label col-md-4" for="moreThan">If more than:</label>
+                                                    <div class="col-md-4">
+                                                        <input type="text" class="form-control" id="moreThan">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-1">
+                                                        <input type="checkbox" checked/>
+                                                    </div>
+                                                    <label class="control-label col-md-4" for="equalTo">If equal to:</label>
+                                                    <div class="col-md-4">
+                                                        <input type="text" class="form-control" id="equalTo" placeholder="25">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-1">
+                                                        <input type="checkbox" />
+                                                    </div>
+                                                    <label class="control-label col-md-4" for="lessThan">If less than:</label>
+                                                    <div class="col-md-4">
+                                                        <input type="text" class="form-control" id="lessThan">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" data-toggle="toggle">
+                                            Mobile notification
+                                        </label>
+                                    </div>
+                                   
+                                <hr />
+
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="~/assets/devices/012.png" class="ra-avatar img-responsive" />
+                                        </div>
+                                        <div class="col-md-9">
+                                            <p>
+                                                Parameter Name 2
+                                            </p>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-9">
+                                            <form class="form-horizontal">
+                                                <div class="form-group">
+                                                    <div class="col-md-1">
+                                                        <input type="checkbox" checked />
+                                                    </div>
+                                                    <label class="control-label col-md-4" for="moreThan">If more than:</label>
+                                                    <div class="col-md-4">
+                                                        <input type="text" class="form-control" id="moreThan" placeholder="40">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-1">
+                                                        <input type="checkbox" />
+                                                    </div>
+                                                    <label class="control-label col-md-4" for="equalTo">If equal to:</label>
+                                                    <div class="col-md-4">
+                                                        <input type="text" class="form-control" id="equalTo">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-1">
+                                                        <input type="checkbox" checked/>
+                                                    </div>
+                                                    <label class="control-label col-md-4" for="lessThan">If less than:</label>
+                                                    <div class="col-md-4">
+                                                        <input type="text" class="form-control" id="lessThan" placeholder="-10">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" data-toggle="toggle">
+                                            Mobile notification
+                                        </label>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

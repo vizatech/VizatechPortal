@@ -1,0 +1,56 @@
+﻿@model ViziMVC.Models.UsersPagePartitions.UserPlus
+@{
+    Layout = null;
+}
+<div class="panel panel-default">
+    <div class="panel-heading well well-sm">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="navbar-form navbar-left">
+                    <a href="#">Контактные данные</a>
+                </form>
+                <form class="navbar-form navbar-right">
+                    <a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="col-md-12">
+            <table class="table">
+                <tr>
+                    <td>Логин</td>
+                    <td>@Model.Login</td>
+                </tr>
+                <tr>
+                    <td>Регистрационный ID</td>
+                    <td>@Model.RegId</td>
+                </tr>
+                <tr>
+                    <td>Дата регистрации</td>
+                    <td>@Model.RegData</td>
+                </tr>
+                <tr>
+                    <td>Телефон</td>
+                    <td>@Model.PhoneNumber</td>
+                </tr>
+                <tr>
+                    <td>Skype</td>
+                    <td>@Model.Skype</td>
+                </tr>
+                <tr>
+                    <td>Электронная почта</td>
+                    <td>@Model.Email</td>
+                </tr>
+                <tr>
+                    <td>Персональный сайт</td>
+                    <td>@Model.PersonalSite</td>
+                </tr>
+                <tr>
+                    <td>Страница в Facebook</td>
+                    <td>@Model.LinkToFacebook</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

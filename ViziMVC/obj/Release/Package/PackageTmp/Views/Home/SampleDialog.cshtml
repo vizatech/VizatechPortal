@@ -1,0 +1,108 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "SampleDialog Page";
+}
+<div class="row">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="/Home/Index">Пользователь</a></li>
+            <li role="presentation"><a href="/Home/Feed">Новости</a></li>
+            <li role="presentation"><a href="/Home/Messages">Сообщения</a></li>
+            <li role="presentation"><a href="/Home/DataSources">Источники Данных</a></li>
+            <li role="presentation"><a href="#">Ресурсы</a></li>
+            <li role="presentation"><a href="#">Поиск</a></li>
+            <li role="presentation"><a href="#">Настройка</a></li>
+            <li role="presentation"><a href="#">Владелец</a></li>
+            <li role="presentation"><a href="#">Администратор</a></li>
+            <li role="presentation"><a href="/Home/DeviceCreate">Testingit</a></li>
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div>
+                        <img src="~/assets/avatars/001.png" class="ra-avatar img-responsive col-md-2" />
+                        <p class="col-md-6"> <span class="Name">Иван</span> <span class="Surname">Демидов</span></p>
+                        <p class="Login" hidden>dem817</p>
+                        <p class="RegID" hidden>09868759-8653673</p>
+                    </div>
+                    <div class="col-md-offset-9">
+                        <p>Был в сети <span datetime="2017-04-13T17:10"> 17:10 13.04</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <img src="~/assets/avatars/001.png" class="ra-avatar img-responsive col-md-1 col-md-offset-1" />
+                    <p class="Surname" hidden>Демидов</p>
+                    <p class="Login" hidden>dem817</p>
+                    <p class="RegID" hidden>09868759-8653673</p>
+                    <p class="Message col-md-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="col-md-1" datetime="2017-04-13T17:10"> 17:10 13.04</p>
+                </div>
+                <div class="row">
+                    <p class="col-md-1 col-md-offset-1" datetime="2017-04-13T17:10"> 17:10 13.04</p>
+                    <div class="col-md-7 col-md-offset-1">
+                        <p class="Message text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <img src="~/assets/avatars/022.png" class="ra-avatar img-responsive col-md-1 " />
+                    <p class="Surname" hidden>Вана</p>
+                    <p class="Login" hidden>van69</p>
+                    <p class="RegID" hidden>09868759-8653623</p>
+                </div>
+                <div class="row">
+                    <img src="~/assets/avatars/001.png" class="ra-avatar img-responsive col-md-1 col-md-offset-1" />
+                    <p class="Surname" hidden>Демидов</p>
+                    <p class="Login" hidden>dem817</p>
+                    <p class="RegID" hidden>09868759-8653673</p>
+                    <p class="Message col-md-8">Some text</p>
+                    <p class="col-md-1" datetime="2017-04-13T17:10"> 17:10 13.04</p>
+                </div>
+                <div class="row">
+                    <p class="col-md-1 col-md-offset-1" datetime="2017-04-13T17:10"> 17:10 13.04</p>
+                    <div class="col-md-7 col-md-offset-1">
+                        <p class="Message text-right">Sample text</p>
+                    </div>
+                    <img src="~/assets/avatars/022.png" class="ra-avatar img-responsive col-md-1" />
+                    <p class="Surname" hidden>Вана</p>
+                    <p class="Login" hidden>van69</p>
+                    <p class="RegID" hidden>09868759-8653623</p>
+                </div>
+                <div class="row">
+                    <img src="~/assets/avatars/001.png" class="ra-avatar img-responsive col-md-1 col-md-offset-1" />
+                    <p class="Surname" hidden>Демидов</p>
+                    <p class="Login" hidden>dem817</p>
+                    <p class="RegID" hidden>09868759-8653673</p>
+                    <p class="Message col-md-8">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                    <p class="col-md-1" datetime="2017-04-13T17:10"> 17:10 13.04</p>
+                </div>
+                <div class="row">
+                    <p class="col-md-1 col-md-offset-1" datetime="2017-04-13T17:10"> 17:10 13.04</p>
+                    <div class="col-md-7 col-md-offset-1">
+                        <p class="Message text-right">a b c d e f g h i j k l m n o p q r s t u v w x y z.</p>
+                    </div>
+                    <img src="~/assets/avatars/022.png" class="ra-avatar img-responsive col-md-1" />
+                    <p class="Surname" hidden>Вана</p>
+                    <p class="Login" hidden>van69</p>
+                    <p class="RegID" hidden>09868759-8653623</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <textarea class="form-control animated" placeholder="Your Message" style="min-width:100%"></textarea>
+                    <br />
+                    <button class="btn btn-info pull-right" type="button">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

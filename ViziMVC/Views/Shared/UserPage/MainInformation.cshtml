@@ -1,0 +1,31 @@
+﻿@model ViziMVC.Models.UsersPagePartitions.MainInformation
+@{
+    Layout = null;
+}
+
+   <div class="panel panel-default">
+    <div class="col-md-12 panel-heading well well-sm">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="navbar-form navbar-left">
+                    <a href="#">Профиль</a>
+                </form>
+                <form class="navbar-form navbar-right">
+                    <a href="#"> <span class="glyphicon glyphicon-cog" aria-hidden="true"> </span></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <img src="/@Model.UserPhotoURL" class="ra-avatar img-responsive" />
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <span class="ra-first-name">@Model.UserName</span>
+                <span class="ra-last-name">@Model.UserSername</span>
+                <span class="ra-position">@Model.UserJobTitle</span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,122 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Messages Page";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a asp-area="" asp-controller="Home" asp-action="Index">Пользователь</a></li>
+            <li role="presentation"><a asp-area="" asp-controller="Home" asp-action="Feed">Новости</a></li>
+            <li role="presentation" class="active"><a asp-area="" asp-controller="Home" asp-action="Messages">Сообщения</a></li>
+            <li role="presentation"><a asp-area="" asp-controller="Home" asp-action="DataSources">Источники Данных</a></li>
+            <li role="presentation"><a href="#">Ресурсы</a></li>
+            <li role="presentation"><a href="#">Поиск</a></li>
+            <li role="presentation"><a href="#">Настройка</a></li>
+            <li role="presentation"><a href="#">Владелец</a></li>
+            <li role="presentation"><a href="#">Администратор</a></li>
+            <li role="presentation"><a asp-area="" asp-controller="Home" asp-action="DeviceCreate">Testingit</a></li>
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#All" aria-controls="All" role="tab" data-toggle="tab">Все сообщения</a></li>
+            <li role="presentation"><a href="#Friends" aria-controls="Friends" role="tab" data-toggle="tab">Друзья</a></li>
+            <li role="presentation"><a href="#Owners" aria-controls="Owners" role="tab" data-toggle="tab">Владельцы</a></li>
+        </ul>
+    
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active">
+                <!-- Werid padding -->
+                <div><br /></div>
+                <div class="container">
+                    <div class="panel panel-default col-md-9">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div>
+                                <img src="~/assets/avatars/001.png" class="ra-avatar img-responsive col-md-2" />
+                                <p class="col-md-6"><a asp-area="" asp-controller="Home" asp-action="SampleDialog"> <span class="Name">Иван</span> <span class="Surname">Демидов</span></a></p>
+                                <p class="Login" hidden>dem817</p>
+                                <p class="RegID" hidden>09868759-8653673</p>
+                                <p class="Message col-md-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div class="col-md-offset-10">
+                                <p datetime="2017-04-13T19:20"> 19:20 13.04</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="panel panel-default col-md-9">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div>
+                                    <img src="~/assets/avatars/023.png" class="ra-avatar img-responsive col-md-2" />
+                                    <p class="col-md-6"> <span class="Name">Антон</span> <span class="Surname">Мисечко</span></p>
+                                    <p class="Login" hidden>maatr</p>
+                                    <p class="RegID" hidden>7868756674-97646743659</p>
+                                    <p class="Message col-md-7">Sample text 1</p>
+                                </div>
+                                <div class="col-md-offset-10">
+                                    <p datetime="2017-04-13T17:10"> 17:10 13.04</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="panel panel-default col-md-9">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div>
+                                    <img src="~/assets/avatars/022.png" class="ra-avatar img-responsive col-md-2" />
+                                    <p class="col-md-6"> <span class="Name">Random</span> <span class="Surname">User</span></p>
+                                    <p class="Login" hidden>maatr</p>
+                                    <p class="RegID" hidden>7868756674-97646743659</p>
+                                    <p class="Message col-md-7">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                                </div>
+                                <div class="col-md-offset-10">
+                                    <p datetime="2017-04-13T15:15"> 15:15 13.04</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="panel panel-default col-md-9">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div>
+                                    <img src="~/assets/avatars/033.png" class="ra-avatar img-responsive col-md-2" />
+                                    <p class="col-md-6"> <span class="Name">Clever</span> <span class="Surname">Guy</span></p>
+                                    <p class="Login" hidden>maatr</p>
+                                    <p class="RegID" hidden>7868756674-97646743659</p>
+                                    <p class="Message col-md-7">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.</p>
+                                </div>
+                                <div class="col-md-offset-10">
+                                    <p datetime="2017-04-13T00:01"> 00:01 13.04</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="panel panel-default col-md-9">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div>
+                                    <img src="~/assets/avatars/028.png" class="ra-avatar img-responsive col-md-2" />
+                                    <p class="col-md-6"> <span class="Name">Анна</span> <span class="Surname">Ванна</span></p>
+                                    <p class="Login" hidden>maatr</p>
+                                    <p class="RegID" hidden>7868756674-97646743659</p>
+                                    <p class="Message col-md-7">Любить значит страдать. Чтобы не страдать, надо не любить, но тогда будешь страдать от того, что не любишь. Поэтому любить значит страдать, но не любить тоже значит страдать, а страдать значит страдать.</p>
+                                </div>
+                                <div class="col-md-offset-10">
+                                    <p datetime="2017-04-10T06:06"> 06:06 10.04</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

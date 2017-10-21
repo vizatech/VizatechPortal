@@ -1,0 +1,27 @@
+﻿@model ViziMVC.Models.UsersPagePartitions.RatingBar
+@{
+    Layout = null;
+}
+
+<div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="@Model.UserRating" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+        @Model.UserRating 
+        %
+    </div>
+</div>
+    <div class="panel-heading well well-sm filter-content">
+        <div class="row">
+            <div class="col-md-3">
+                Фильтр:
+            </div>
+            <div class="col-md-9">
+                <div class="btn-group btn-group-xs filter-buttons" role="toolbar">
+                    <button class="btn btn-info" data-filter="*">все</button>
+                    <button class="btn btn-info" data-filter=".iot">IoT</button>
+                    <button class="btn btn-info" data-filter=".sql">SQL</button>
+                    <button class="btn btn-info" data-filter=".web">Web</button>
+                    <button class="btn btn-info" data-filter=".mob">Mob</button>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,182 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "DeviceCreate Page";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="/Home/Index">Пользователь</a></li>
+            <li role="presentation"><a href="/Home/Feed">Новости</a></li>
+            <li role="presentation"><a href="/Home/Messages">Сообщения</a></li>
+            <li role="presentation"><a href="/Home/DataSources">Источники Данных</a></li>
+            <li role="presentation"><a href="#">Ресурсы</a></li>
+            <li role="presentation"><a href="#">Поиск</a></li>
+            <li role="presentation"><a href="#">Настройка</a></li>
+            <li role="presentation"><a href="#">Владелец</a></li>
+            <li role="presentation"><a href="#">Администратор</a></li>
+            <li role="presentation"><a href="/Home/DeviceCreate">Testingit</a></li>
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#General" aria-controls="General" role="tab" data-toggle="tab">General</a></li>
+            <li role="presentation"><a href="#Connection" aria-controls="Connection" role="tab" data-toggle="tab">Connection</a></li>
+            <li role="presentation"><a href="#View" aria-controls="View" role="tab" data-toggle="tab">View</a></li>
+            <li role="presentation"><a href="#Subscriptions" aria-controls="Subscriptions" role="tab" data-toggle="tab">Subscriptions</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="General">
+                <div class="container-fluid">
+                    <br />
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputSourceName" class="col-sm-2 control-label">Source Name:</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" id="inputSourceName" placeholder="Source Name">
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <label for="sourceClass" class="col-sm-2 control-label">Source Class:</label>
+                            <div class="col-md-10">
+                                <select id="sourceClass" class="form-control">
+                                    <option>IoT</option>
+                                    <option>SQL</option>
+                                    <option>Web</option>
+                                    <option>Mobile</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="col-md-12 panel-heading well well-sm">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <form class="navbar-form navbar-left">
+                                            <a href="#">Device's generalized information</a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group">
+                                    <label for="funcType" class="col-sm-2 control-label">Function type: </label>
+                                    <div class="col-md-10">
+                                        <select id="funcType" class="form-control">
+                                            <option>Thermometer</option>
+                                            <option>GPS</option>
+                                            <option>Air</option>
+                                            <option>Gas</option>
+                                            <option>Radiation</option>
+                                            <option>On/Off</option>
+                                            <option>Dimmer</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sourceDescription" class="col-sm-2 control-label">Description:</label>
+                                    <div class="col-md-10">
+                                        <textarea class="form-control" rows="5" id="sourceDescription"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Location </label>
+                                    <div class="col-md-10">
+                                        <select id="country" class="form-control">
+                                            <option>Country</option>
+                                            <option>Ukraine</option>
+                                            <option>England</option>
+                                            <option>Poland</option>
+                                        </select>
+                                        <br />
+                                        <select id="region" class="form-control">
+                                            <option>Region</option>
+                                            <option>Kiev</option>
+                                            <option>Kharkov</option>
+                                        </select>
+                                        <br>
+                                        <select id="town" class="form-control">
+                                            <option>Town</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="col-md-12 panel-heading well well-sm">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <form class="navbar-form navbar-left">
+                                                    <a href="#">Thermo</a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group">
+                                            <label for="funcType" class="col-sm-2 control-label">Accurance:</label>
+                                            <div class="col-md-5">
+                                                <input type="number" id="funcType" class="form-control">
+                                            </div>
+                                            <label class="col-md-1 control-label text-left col-md-pull-5">%</label>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Measurement: </label>
+                                            <div class="col-md-10">
+                                                <select id="unitOfMeasurement" class="form-control">
+                                                    <option>C</option>
+                                                    <option>F</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="funcType" class="col-sm-2 control-label">Frequency:</label>
+                                            <div class="col-md-5">
+                                                <input type="number" id="funcType" class="form-control">
+                                            </div>
+                                            <label class="col-md-1 control-label col-md-pull-5"> 1/s</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputFile" class="col-sm-2 control-label">Datasheet file</label>
+                                    <div class="col-md-10">
+                                        <input type="file" class="btn btn-default" id="exampleInputFile">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-info">Create device</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="Connection">Connection</div>
+            <div role="tabpanel" class="tab-pane" id="View">View</div>
+            <div role="tabpanel" class="tab-pane" id="Subscriptions">Subscriptions</div>
+        </div>
+
+    </div>
+</div>

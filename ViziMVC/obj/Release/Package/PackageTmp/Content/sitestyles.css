@@ -1,0 +1,94 @@
+﻿body {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.topbar {
+    margin-top:8px;
+}
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/* Custom css*/
+#profile {
+    position: relative;
+}
+
+.ra-well-title {
+    font-size: 1.2857em;
+    line-height: 1.2857em;
+    border-bottom: 1px solid #e7e7e7;
+    margin: -5px -19px 0.8333em;
+    padding: 0 19px 0.7222em;
+}
+
+.ra-avatar {
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+}
+
+.ra-first-name {
+    display: block;
+    margin-top: 0.8571em;
+}
+
+.ra-last-name {
+    display: block;
+    font-size: 1.7143em;
+    line-height: 1.3em;
+}
+
+.ra-position {
+    font-size: 0.8571em;
+    color: #999;
+    padding-bottom: 2em;
+}
+
+div [data-category="owner"] {
+    padding-bottom: 10px;
+}
+
+.feedComment {
+    min-width: 100%;
+}
+
+.row-fluid {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+
+#hello {
+    height: 80px;
+}
+#inline-list div {
+    display: inline-block;
+}
